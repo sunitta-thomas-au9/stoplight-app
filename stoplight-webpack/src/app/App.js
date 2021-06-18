@@ -11,7 +11,10 @@ function App(props) {
         <div className="App">
         <API
           apiDescriptionUrl={props.url}
+          layout="traditional"
+          router="history"
         />
+        <p>Test{props.url}</p>
       </div>
     );
 
